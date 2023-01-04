@@ -1,0 +1,16 @@
+PODS:
+  - IOSIAPHandler (0.1.0)
+
+DEPENDENCIES:
+  - IOSIAPHandler (from `../`)
+
+EXTERNAL SOURCES:
+  IOSIAPHandler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IOSIAPHandler: 90fed400e439ed63e80fa3b427149f9152edefe5
+
+PODFILE CHECKSUM: dd25cd7d957fd5487f7aa1960b08479be718a871
+
+COCOAPODS: 1.11.3
