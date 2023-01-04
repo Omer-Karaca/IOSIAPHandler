@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'IOSIAPHandler'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IOSIAPHandler.'
+  s.summary          = 'A swift library to handle iOS IAP.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,24 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'A swift library to handle iOS in app purchases'
                        DESC
 
-  s.homepage         = 'https://github.com/95032856/IOSIAPHandler'
+  s.homepage         = 'https://github.com/Omer-Karaca/IOSIAPHandler'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '95032856' => 'viyateknoloji@gmail.com' }
   s.source           = { :git => 'https://github.com/95032856/IOSIAPHandler.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    s.static_framework = true
+  s.ios.deployment_target = '14.0'
+  s.swift_version = '5.0'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'IOSIAPHandler/Classes/**/*'
-  
+  s.source_files = 'IAP/**/*.swift'
+  #'IOSIAPHandler/Classes/**/*'
+  s.platforms = {
+    "ios": "14.0"
+    }
   # s.resource_bundles = {
   #   'IOSIAPHandler' => ['IOSIAPHandler/Assets/*.png']
   # }
@@ -43,4 +47,8 @@ TODO: Add long description of the pod here.
     s.dependency 'FirebaseAnalytics', '~> 10.3'
     s.dependency 'SVProgressHUD', '~> 2.2'
     s.dependency 'Alamofire', '~> 5.6'
+    # s.dependency 'Firebase/RemoteConfig'
+    # s.dependency 'Firebase/Core', '~> 10.3'
+    # s.dependency 'Firebase/Performance', '~> 10.3'
+    # s.dependency 'Firebase/Crashlytics', '~> 10.3'
 end
