@@ -8,6 +8,10 @@ target 'IOSIAPHandler_Example' do
   target 'IOSIAPHandler_Tests' do
     inherit! :search_paths
 
+    pod 'Alamofire'
+    pod 'FirebaseAnalytics'
+    pod 'Adjust'
+    pod 'SVProgressHUD'
     
   end
 end

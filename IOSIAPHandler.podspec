@@ -25,9 +25,9 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '95032856' => 'viyateknoloji@gmail.com' }
-  s.source           = { :git => 'https://github.com/95032856/IOSIAPHandler.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Omer-Karaca/IOSIAPHandler.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-    s.static_framework = true
+  s.static_framework = true
   s.ios.deployment_target = '14.0'
   s.swift_version = '5.0'
 
@@ -43,10 +43,10 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-    s.dependency 'Adjust', '~> 4.33'
-    s.dependency 'FirebaseAnalytics', '~> 10.3'
-    s.dependency 'SVProgressHUD', '~> 2.2'
-    s.dependency 'Alamofire', '~> 5.6'
+    s.dependency 'Adjust'#, '~> 4.33'
+    s.dependency 'FirebaseAnalytics'#, '~> 10.3'
+    s.dependency 'SVProgressHUD'#, '~> 2.2'
+    s.dependency 'Alamofire'#, '~> 5.6'
     # s.dependency 'Firebase/RemoteConfig'
     # s.dependency 'Firebase/Core', '~> 10.3'
     # s.dependency 'Firebase/Performance', '~> 10.3'
