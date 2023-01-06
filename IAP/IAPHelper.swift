@@ -28,8 +28,8 @@ open class IAPHelper: NSObject  {
     var purchaseSuccessUIUpdateDelegate: PurchaseSuccessUIUpdateDelegate?
 
     //App Secret
-    static let sharedSecret = "26c96788bec1405799a6fdf3b8a6bab5"//MARK: DON'T FORGET TO CHANGE
-    //Encyrption.resolveEncrypt("%H3dgQq9c698pf:29Dm8Bedgf:h]<gM7vxhLE34370S;?0:H8gM4<8V<jVf9rf4Kd2wi]L3[XgdCf=u5kv7f9<7PfD3;eH89Wgg&")
+    //static var sharedSecret = "abcksc3498573498r3bssdk"//MARK: DON'T FORGET TO CHANGE
+
 
     //Price Formatter
     static let priceFormatter: NumberFormatter = {
@@ -56,7 +56,7 @@ open class IAPHelper: NSObject  {
     //Restore Message Run Once
     var restoreMessageRunOnce = true
     public static var selectedProduct: SKProduct?
-    public init(productIds: Set<ProductIdentifier>) {
+    public init(productIds: Set<ProductIdentifier>, sharedSecret: String) {
         productIdentifiers = productIds
         super.init()
         SKPaymentQueue.default().add(self)
