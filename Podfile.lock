@@ -1,7 +1,7 @@
 PODS:
-  - Adjust (4.33.2):
-    - Adjust/Core (= 4.33.2)
-  - Adjust/Core (4.33.2)
+  - Adjust (4.33.3):
+    - Adjust/Core (= 4.33.3)
+  - Adjust/Core (4.33.3)
   - Alamofire (5.6.4)
   - FirebaseAnalytics (10.3.0):
     - FirebaseAnalytics/AdIdSupport (= 10.3.0)
@@ -100,7 +100,7 @@ SPEC REPOS:
     - SVProgressHUD
 
 SPEC CHECKSUMS:
-  Adjust: 554c87d1b6799efa8169d34166b2a12862bf002c
+  Adjust: 41d0d5c031409aebe7fb1f5703ff0d3306133439
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   FirebaseAnalytics: 036232b6a1e2918e5f67572417be1173576245f3
   FirebaseCore: 988754646ab3bd4bdcb740f1bfe26b9f6c0d5f2a

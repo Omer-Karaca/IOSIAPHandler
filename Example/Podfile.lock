@@ -71,7 +71,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.10.0):
     - GoogleUtilities/Logger
-  - IOSIAPHandler (0.1.0):
+  - IOSIAPHandler (0.1.2):
     - Adjust
     - Alamofire
     - FirebaseAnalytics
@@ -118,7 +118,7 @@ SPEC CHECKSUMS:
   FirebaseInstallations: e2f26126089dcf41e215f7b8925af8d953c7d602
   GoogleAppMeasurement: c7d6fff39bf2d829587d74088d582e32d75133c3
   GoogleUtilities: bad72cb363809015b1f7f19beb1f1cd23c589f95
-  IOSIAPHandler: 33e74cff31ca9039bc44f11dc134c47181b016d1
+  IOSIAPHandler: b97efbfc620c172e743aacd8d9f51d74a2549291
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
