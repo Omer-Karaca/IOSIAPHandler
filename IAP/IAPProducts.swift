@@ -14,7 +14,7 @@ public struct IAPProducts {
 //    static var FITWALK_YEARLY_SUBS = RemoteVariables.remoteConfig.configValue(forKey: RemoteVariables.FITWALK_YEARLY_SUBS).stringValue ?? RemoteVariables.FITWALK_YEARLY_SUBS
     static var YEARLY_SUBS = "YEARLY_SUBS"
 
-    private static var productIdentifiers: Set<ProductIdentifier> = {
+    static var productIdentifiers: Set<ProductIdentifier> = {
 
         return createIdentifiers()
 
